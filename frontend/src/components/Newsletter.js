@@ -18,7 +18,7 @@ const Newsletter = () => {
       <h3 className='mb-3 text-light'>Sign Up For Our Newsletter</h3>
      </Col>
 
-     <Col md={6} className='news-input'>
+     <Col md={6}>
       <InputGroup>
        <FormControl placeholder='Enter Email' />
        <Button
