@@ -7,7 +7,7 @@ const Header = () => {
   <header>
    <Navbar
     className='py-3'
-    bg='primary'
+    bg='dark'
     variant='dark'
     expand='lg'
     collapseOnSelect>
