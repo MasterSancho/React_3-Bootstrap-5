@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Header from './components/Header';
 import Showcase from './components/Showcase';
 import Newsletter from './components/Newsletter';
+import Boxes from './components/Boxes';
 
 const App = () => {
  return (
@@ -11,6 +12,7 @@ const App = () => {
    <main className='bg-dark text-light'>
     <Showcase />
     <Newsletter />
+    <Boxes />
    </main>
   </Router>
  );
