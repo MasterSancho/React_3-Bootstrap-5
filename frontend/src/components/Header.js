@@ -6,7 +6,7 @@ const Header = () => {
  return (
   <header>
    <Navbar
-    className='py-3'
+    className='py-3 fixed-top'
     bg='dark'
     variant='dark'
     expand='lg'
