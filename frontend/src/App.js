@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Showcase from './components/Showcase';
 import Newsletter from './components/Newsletter';
 import Boxes from './components/Boxes';
+import LearnSections from './components/LearnSections';
 
 const App = () => {
  return (
@@ -13,6 +14,7 @@ const App = () => {
     <Showcase />
     <Newsletter />
     <Boxes />
+    <LearnSections />
    </main>
   </Router>
  );

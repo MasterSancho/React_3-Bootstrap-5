@@ -1,13 +1,13 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
-import { Container, Row, Col, Card, ListGroup, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Laptop, PersonSquare, People } from 'react-bootstrap-icons';
 
 const Boxes = () => {
  return (
   <div className='p-5 bg-light'>
    <Container>
-    <Row className='text-center'>
+    <Row className='text-center g-4'>
      <Col md>
       <Card className='bg-dark text-light'>
        <Card.Body className='text-center'>
