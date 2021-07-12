@@ -5,6 +5,7 @@ import Newsletter from './components/Newsletter';
 import Boxes from './components/Boxes';
 import LearnSections from './components/LearnSections';
 import QuestionAccordion from './components/QuestionAccordion';
+import Instructors from './components/Instructors';
 
 const App = () => {
  return (
@@ -16,6 +17,7 @@ const App = () => {
     <Boxes />
     <LearnSections />
     <QuestionAccordion />
+    <Instructors />
    </main>
   </Router>
  );

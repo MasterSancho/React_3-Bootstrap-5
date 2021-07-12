@@ -3,7 +3,7 @@ import { Container, Accordion, Card, Button, Row } from 'react-bootstrap';
 
 const QuestionAccordion = () => {
  return (
-  <div id='questions' className='bg-light p-5'>
+  <div className='bg-light p-5'>
    <Container className='pt-3'>
     <h2 className='text-center  mb-4'>Frequently Asked Questions</h2>
 
