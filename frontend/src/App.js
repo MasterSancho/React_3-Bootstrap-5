@@ -6,6 +6,7 @@ import Boxes from './components/Boxes';
 import LearnSections from './components/LearnSections';
 import QuestionAccordion from './components/QuestionAccordion';
 import Instructors from './components/Instructors';
+import ContactMap from './components/ContactMap';
 
 const App = () => {
  return (
@@ -18,6 +19,7 @@ const App = () => {
     <LearnSections />
     <QuestionAccordion />
     <Instructors />
+    <ContactMap />
    </main>
   </Router>
  );
